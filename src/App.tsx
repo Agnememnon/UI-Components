@@ -4,6 +4,7 @@ import './App.css';
 
 //local imports
 import StandardButton from './atoms/button/standard-button';
+import Textbox from './atoms/textbox/textbox';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
           />
           <StandardButton clickHandler = { (e) =>{console.log('clicked')}}/>
         </div>
-        test
+        <Textbox changeHandler={(e)=>console.log('change')}/>
         <a
           className="App-link"
           href="https://reactjs.org"

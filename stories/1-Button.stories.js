@@ -10,5 +10,5 @@ export default {
 export const Text = () => <StandardButton clickHandler={action('clicked')} bgColor='black'/>
 
 export const Emoji = () => (
-  <StandardButton clickHandler={action('clicked')} value='😀 😎 👍 💯'/> 
+  <StandardButton clickHandler={action('😀 😎 👍 💯')} value='😀 😎 👍 💯'/> 
 );
